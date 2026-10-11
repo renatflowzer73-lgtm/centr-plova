@@ -26,7 +26,6 @@
 - Цены прочитаны с фото меню в зале — сверьте. Цена «Рулета с картошкой» закрыта наклейкой.
 - Есть ли доставка (сейчас на сайте: «В зале и навынос»).
 - Ссылки на соцсети и мессенджеры.
-- Фото шурпы и казан-кебаба (сейчас аккуратные плейсхолдеры).
 
 ## Безопасность
 
@@ -46,4 +45,4 @@ python3 -c "import re,hashlib,base64;s=open('index.html',encoding='utf-8').read(
 
 ## Публикация
 
-Проще всего — GitHub Pages: Settings → Pages → Deploy from a branch → `main` / root.
+Сайт публикуется через GitHub Pages: https://renatflowzer73-lgtm.github.io/centr-plova/

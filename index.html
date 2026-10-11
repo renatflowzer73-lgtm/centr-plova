@@ -538,6 +538,8 @@ button { font: inherit; color: inherit; }
           <figure class="spin"><img src="img/menu-lagman.webp" width="440" height="352" loading="lazy" decoding="async" alt="Лагман с мясом и овощами"></figure>
           <figure class="spin"><img src="img/menu-manty.webp" width="480" height="352" loading="lazy" decoding="async" alt="Манты со сметанным соусом"></figure>
           <figure class="spin"><img src="img/menu-plov.webp" width="792" height="576" loading="lazy" decoding="async" alt="Плов с говядиной и головкой чеснока"></figure>
+          <figure class="spin"><img src="img/shurpa.webp" width="1600" height="1022" loading="lazy" decoding="async" alt="Шурпа с говядиной и картофелем"></figure>
+          <figure class="spin"><img src="img/kazan-kebab.webp" width="1600" height="877" loading="lazy" decoding="async" alt="Казан-кебаб с картофелем и луком"></figure>
           <figure class="spin"><img src="img/menu-salad.webp" width="652" height="336" loading="lazy" decoding="async" alt="Салат из свежих овощей"></figure>
           <svg class="steam" viewBox="0 0 200 150" aria-hidden="true">
             <path filter="url(#soft)" d="M70 140 C 50 110, 90 95, 70 65 S 80 25, 72 8"/>
@@ -566,6 +568,8 @@ button { font: inherit; color: inherit; }
         <button class="pick" type="button" aria-pressed="false" data-k="Наваристый" data-n="Лагман" data-m="700 г · 350 ₽"><img src="img/menu-lagman.webp" alt="" loading="lazy"><span>Лагман</span><small>350 ₽</small></button>
         <button class="pick" type="button" aria-pressed="false" data-k="На пару" data-n="Манты" data-m="4 шт. · 400 ₽"><img src="img/menu-manty.webp" alt="" loading="lazy"><span>Манты</span><small>400 ₽</small></button>
         <button class="pick" type="button" aria-pressed="false" data-k="Каждый день" data-n="Плов с говядиной" data-m="300 г · 350 ₽"><img src="img/menu-plov.webp" alt="" loading="lazy"><span>Плов</span><small>350 ₽</small></button>
+        <button class="pick" type="button" aria-pressed="false" data-k="Наваристая" data-n="Шурпа с говядиной" data-m="700 г · 350 ₽"><img src="img/shurpa.webp" alt="" loading="lazy"><span>Шурпа</span><small>350 ₽</small></button>
+        <button class="pick" type="button" aria-pressed="false" data-k="На компанию" data-n="Казан-кебаб" data-m="800 г · 750 ₽"><img src="img/kazan-kebab.webp" alt="" loading="lazy"><span>Казан-кебаб</span><small>750 ₽</small></button>
         <button class="pick" type="button" aria-pressed="false" data-k="Свежее" data-n="Салаты" data-m="от 100 ₽"><img src="img/menu-salad.webp" alt="" loading="lazy"><span>Салаты</span><small>от 100 ₽</small></button>
       </div>
       <button class="picker__arrow" type="button" data-next aria-label="Следующее блюдо"><svg aria-hidden="true"><use href="#i-right"/></svg></button>
@@ -612,15 +616,13 @@ button { font: inherit; color: inherit; }
         <div class="card__foot"><div class="card__price"><small>Цена</small><b>400 ₽</b></div><a class="card__add" href="tel:+79278372181" aria-label="Заказать манты по телефону">Заказать<i><svg aria-hidden="true"><use href="#i-plus"/></svg></i></a></div>
       </li>
       <li class="card">
-        <!-- МЕНЯТЬ: фото шурпы -->
-        <div class="card__img"><div class="ph"><svg aria-hidden="true"><use href="#i-bowl"/></svg>Фото скоро</div></div>
+        <div class="card__img"><img src="img/shurpa.webp" width="1600" height="1022" loading="lazy" decoding="async" alt="Шурпа: крупные куски говядины, картофель, морковь и зелень в бульоне"></div>
         <div class="card__top"><h3>Шурпа</h3><span class="card__meta"><svg aria-hidden="true"><use href="#i-scale"/></svg>700 г</span></div>
         <p>Прозрачный бульон, крупные куски говядины, картофель и зелень.</p>
         <div class="card__foot"><div class="card__price"><small>Цена</small><b>350 ₽</b></div><a class="card__add" href="tel:+79278372181" aria-label="Заказать шурпу по телефону">Заказать<i><svg aria-hidden="true"><use href="#i-plus"/></svg></i></a></div>
       </li>
       <li class="card">
-        <!-- МЕНЯТЬ: фото казан-кебаба -->
-        <div class="card__img"><div class="ph"><svg aria-hidden="true"><use href="#i-kazan"/></svg>Фото скоро</div></div>
+        <div class="card__img"><img src="img/kazan-kebab.webp" width="1600" height="877" loading="lazy" decoding="async" alt="Казан-кебаб: говядина с золотистым картофелем, луком и зеленью"></div>
         <div class="card__top"><h3>Казан-кебаб</h3><span class="card__meta"><svg aria-hidden="true"><use href="#i-scale"/></svg>800 г</span></div>
         <p>Говядина из казана с картофелем фри и салатом. На компанию.</p>
         <div class="card__foot"><div class="card__price"><small>Цена</small><b>750 ₽</b></div><a class="card__add" href="tel:+79278372181" aria-label="Заказать казан-кебаб по телефону">Заказать<i><svg aria-hidden="true"><use href="#i-plus"/></svg></i></a></div>
