@@ -310,7 +310,7 @@ body { --bar-h: 76px; }
 /* ============================================================
    6. НАШ ЗАЛ
    ============================================================ */
-.gallery { display: grid; gap: 12px; grid-template-columns: 1fr 1fr; }
+.gallery { display: grid; gap: 12px; grid-template-columns: 1fr 1fr; grid-auto-flow: dense; }
 .gallery figure { margin: 0; position: relative; border-radius: var(--r); overflow: hidden; background: var(--peach); aspect-ratio: 4 / 5; }
 .gallery figure.wide { grid-column: span 2; aspect-ratio: 16 / 10; }
 .gallery img { width: 100%; height: 100%; object-fit: cover; }
@@ -713,8 +713,8 @@ body { --bar-h: 76px; }
 
 <!-- ============================================================
      6. НАШ ЗАЛ
-     МЕНЯТЬ: фото зала. Плейсхолдеры <div class="ph"> замените на
-     <img src="img/hall-1.webp" loading="lazy" alt="…">
+     МЕНЯТЬ: фото зала — файлы img/hall-1.webp, hall-2.webp, hall-3.webp.
+     Подписи — в <figcaption>, описание для незрячих — в alt="…"
      ============================================================ -->
 <section class="section" id="hall" aria-labelledby="hall-title" style="padding-top:0">
   <div class="wrap">
@@ -724,9 +724,9 @@ body { --bar-h: 76px; }
       <p>Большие окна с золотым узором, мягкие синие диваны и запах свежей выпечки.</p>
     </div>
     <div class="gallery">
-      <figure class="tall reveal"><img src="img/facade-4.webp" width="518" height="628" loading="lazy" decoding="async" alt="Большие окна кафе с золотым узором из колосьев"><figcaption>Окна с золотым узором</figcaption></figure>
-      <figure class="wide reveal"><div class="ph ph--blue"><svg aria-hidden="true"><use href="#i-sofa"/></svg>Фото зала с синими диванами</div></figure>
-      <figure class="reveal"><div class="ph"><svg aria-hidden="true"><use href="#i-plate"/></svg>Фото стола с пловом</div></figure>
+      <figure class="tall reveal"><img src="img/hall-1.webp" width="646" height="866" loading="lazy" decoding="async" alt="Светлый зал кафе: мягкие синие диваны, столы со скатертями и гирлянды-лампочки под потолком"><figcaption>Зал с гирляндами</figcaption></figure>
+      <figure class="wide reveal"><img src="img/hall-3.webp" width="646" height="436" loading="lazy" decoding="async" alt="Синие диваны и столики с белыми скатертями и зеленью"><figcaption>Мягкие синие диваны</figcaption></figure>
+      <figure class="reveal"><img src="img/hall-2.webp" width="652" height="866" loading="lazy" decoding="async" alt="Столик у панорамного окна с золотым узором: казан, колосья и надпись «Выпечка»"><figcaption>Столик у окна</figcaption></figure>
       <figure class="reveal"><img src="img/samsa.webp" width="650" height="868" loading="lazy" decoding="async" alt="Самса на блюде с восточным узором"><figcaption>Самса к чаю</figcaption></figure>
       <figure class="reveal"><img src="img/menu-tea.webp" width="340" height="224" loading="lazy" decoding="async" alt="Чайник и пиала с чаем на скатерти"><figcaption>Чай в пиалах</figcaption></figure>
       <figure class="wide reveal"><img src="img/facade-2.webp" width="522" height="520" loading="lazy" decoding="async" alt="Витрина «Центр Плова» с чёрной вывеской и золотыми буквами"><figcaption>Вход с улицы</figcaption></figure>
