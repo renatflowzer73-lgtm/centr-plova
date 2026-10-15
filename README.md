@@ -45,4 +45,5 @@ python3 -c "import re,hashlib,base64;s=open('index.html',encoding='utf-8').read(
 
 ## Публикация
 
-Сайт публикуется через GitHub Pages: https://renatflowzer73-lgtm.github.io/centr-plova/
+Сайт: https://centr-plova.com (GitHub Pages, домен прописан в файле `CNAME`).
+Каждое изменение в ветке `main` автоматически публикуется.
